@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(202, 245, 220);
+}
+header{
+    background-color: rgb(181, 216, 176);
+}
+h1{
+    color: rgb(37, 28, 90);
+}
+h2{
+    color: rgb(65, 34, 105);
+}            
+.pagina1{
+      text-align: center;
+      overflow: auto;
+
+}
+#horta{
+    display:block;
+    float:left;
+    margin-right: 100px;
+    width:20%
+}
+.header {
+    height: 200px;
+    position: relative;
+}
+.header {
+    width: auto;
+    height: 100%;
+    position: relative;
+    top:0;
+    left: 0;
+    object-fit: cover;
+}
+
+  li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+} 
+.beneficios{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.mensagem{
+    display: none;
+}
+.mensagem2{
+     display: none;
+}
+.hortaliças{
+    display: flex;
+}
+.image{
+    width: 50px;
+    flex: 1px;
+    margin-left: 50px;
+    border: 2px slategray;
+    border: radius 8px;
+    overflow: hidden;
+
+}
+.image img{
+    width: 100%;
+    display: block;
+    margin-left: 50px;
+}
+#plantas{
+    width: 20%;
+    border: 10px solid purple;
+}
+#plantass{
+    width: 24%;
+border: 10px solid purple;
+}
